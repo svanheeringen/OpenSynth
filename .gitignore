@@ -12,6 +12,8 @@ data/.DS_Store
 **/lightning_logs/*
 .venv/*
 !tests/data/streaming/*
+!tests/data/evaluation/*
+**/.ipynb_checkpoints/*
 
 # Distribution / packaging
 .Python
@@ -20,6 +22,7 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+q
 .eggs/
 lib/
 lib64/
@@ -36,3 +39,4 @@ MANIFES
 *.pt
 *.tmp
 .venv
+
